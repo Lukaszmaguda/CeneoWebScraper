@@ -76,6 +76,6 @@ def product(code):
 def products():
     return render_template("products.html")
 
-@app.route("/author")
+@app.route("/autor")
 def author():
     return render_template("autor.html")
